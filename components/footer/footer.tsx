@@ -1,9 +1,11 @@
-import React from 'react'
+import Styles from './footer.module.css'
 
-export const Footer = () => {
+export function Footer() {
   return (
     <footer>
-      <p>on-Food</p>
+      <div className={Styles.footer}>
+        <p>@ 2022 - OnFood</p>
+      </div>
     </footer>
   )
 }

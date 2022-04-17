@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Styles from './header.module.css'
 import { IconBookmark, IconHome } from '@/icons'
 
-export function Header() {
+export const Header = () => {
   return (
     <header>
       <nav className={Styles.nav}>
